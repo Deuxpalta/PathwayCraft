@@ -1,4 +1,6 @@
 {
   "item.pathwaycraft.murloc_scale": "Murloc scale",
-  "item.pathwaycraft.conch": "Conch"
+  "item.pathwaycraft.conch": "Conch",
+  "creativetab.pathwaymod.potion_ingredients": "Potion Ingredients",
+  "creativetab.pathwaymod.pathway_tab": "Pathway Blocks"
 }
