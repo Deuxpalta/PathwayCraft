@@ -1,6 +1,7 @@
 package com.pathway.pathwaymod;
 
 import com.pathway.pathwaymod.item.ModItems;
+import com.pathway.pathwaymod.pathwaycrafttab.ModCreativeModeTabs;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -29,6 +30,8 @@ public class PathwayCraft {
     public PathwayCraft(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
 
